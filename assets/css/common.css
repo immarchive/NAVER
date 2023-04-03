@@ -1,0 +1,83 @@
+/* 공통 */
+body{
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+}
+img {
+    vertical-align: top;
+}
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+
+
+
+/* 참조 */
+.footer-inner .notice-area .more-all::after,
+.sc-login .link-login::before,
+.sc-login .sub-area .link-id::before,
+.sc-login .sub-area .link-join::before,
+.container .btn-more-wrap .btn-more .ic-more,
+.sc-news .group-issue .issue-area .link-media::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-title .link-title::after,
+.sc-sidenews .nav-wrap .btn-nav.prev::before,
+.sc-sidenews .nav-wrap .btn-nav.next::after,
+.sc-themepost .funding .theme-title .title::after,
+.sc-themepost .mediaview-area .media-thumb .ic-play::before,
+.sc-themepost .topstory .topstory-inner .ic-play::before,
+.sc-themepost .topstory .topstory-inner .runtime::before,
+.sc-themepost .category-wrap .prev::before,
+.sc-themepost .category-wrap .next::before,
+.sc-themepost .group-title .info-area .btn-set::before,
+.sc-themepost .group-category .category-wrap::before,
+.sc-sidenews .nav-wrap .btn-nav::after,
+.sc-themepost .funding .btn .ic-btn,
+.sc-news .group-title .set-area .btn-set::after,
+.gnb .group-weather .weather-inner .degree-box .max::before,
+.gnb .group-nav .btn-more::after,
+.gnb .group-nav .nav-item .ic-shopping::before,
+.gnb .group-nav .nav-item .ic-shop::before,
+.gnb .group-nav .nav-item .ic-tv::before,
+.gnb .group-nav .nav-item .ic-mail::before,
+.header .service-area a::after,
+.header .search-area .btn-submit::after,
+.header .logo-area .logo{
+    background-image: url(../img/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 442px 428px;
+}
+
+
+.sc-shop .group-plusdeal .deal-item .thumb-img.sec::before,
+.sc-shop .group-plusdeal .deal-item .ic-one-plus,
+.sc-shop .group-plusdeal .title-area a::before,
+.sc-shop .group-plus .shop-control .prev::before,
+.sc-shop .group-plus .shop-control .next::before,
+.sc-shop .group-event .btn-box .prev::before,
+.sc-shop .group-event .btn-box .next::before,
+.sc-shop .group-goods .shop-control .btn-box .prev::before,
+.sc-shop .group-goods .shop-control .btn-box .next::before,
+.sc-shop .group-goods .shop-page .next::before,
+.sc-shop .group-goods .shop-page .prev::before,
+.sc-shop .group-tab .link-tab::before,
+.sc-shop .group-tab .link-tab::after {
+    background-image: url(../img/sp-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 129px 101px;
+}
+
+
+.gnb .group-weather .weather-inner .ic-weather{
+    background-image: url(../img/sp-weather.png);
+    background-repeat: no-repeat;
+    background-size: 215px 184px;
+}
